@@ -1,28 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 78, in script
-    if menu_choice == 0:
-  File "game/script.rpy", line 78, in <module>
-    if menu_choice == 0:
-NameError: name 'menu_choice' is not defined
+  File "game/script.rpy", line 137, in script
+    $ acertos += 1
+  File "game/script.rpy", line 137, in <module>
+    $ acertos += 1
+NameError: name 'acertos' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 78, in script
-    if menu_choice == 0:
-  File "/home/jovi/Downloads/renpy-8.3.2-sdk/renpy/ast.py", line 1843, in execute
-    if renpy.python.py_eval(condition):
-  File "/home/jovi/Downloads/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/home/jovi/Downloads/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 78, in <module>
-    if menu_choice == 0:
-NameError: name 'menu_choice' is not defined
+  File "game/script.rpy", line 137, in script
+    $ acertos += 1
+  File "/home/jovi/Downloads/renpy-8.3.2-sdk/renpy/ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/home/jovi/Downloads/renpy-8.3.2-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 137, in <module>
+    $ acertos += 1
+NameError: name 'acertos' is not defined
 
 Linux-6.8.0-47-generic-x86_64-with-glibc2.39 x86_64
 Ren'Py 8.3.2.24090902
 Bug Hunter 1.0
-Mon Oct 28 17:10:17 2024
+Mon Oct 28 23:12:35 2024

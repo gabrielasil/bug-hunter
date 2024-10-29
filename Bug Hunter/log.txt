@@ -1,30 +1,34 @@
-2024-10-28 20:28:04 UTC
+2024-10-29 02:48:21 UTC
 Linux-6.8.0-47-generic-x86_64-with-glibc2.39
 Ren'Py 8.3.2.24090902
 
 Early init took 0.04s
 Loading error handling took 0.09s
-Loading script took 1.08s
+Loading script took 1.13s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.07s
+INFO:renpy_warp_service:service thread started. periodically scanning ports for warp server
+Running init code took 0.08s
 Loading analysis data took 0.00s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
 Backing up script files to '/home/jovi/.renpy/backups/Bug Hunter':
 Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.02s
+Initial gc took 0.03s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.01s
+INFO:renpy_warp_service:connected to renpy warp socket server on :40111
+Save screen analysis took 0.02s
 Prepare screens took 0.10s
 Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
+INFO:renpy_warp_service:closing websocket connection :40111
+INFO:renpy_warp_service:socket service got code 4000, service closing

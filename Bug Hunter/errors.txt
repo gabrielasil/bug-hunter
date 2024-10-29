@@ -2,7 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 87: Indentation mismatch.
+File "game/script.rpy", line 67: end of line expected.
+    with vpunch bruno "Ei. Não escute ele. E seja bem vinda, Débora."
+                ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Mon Oct 28 17:15:12 2024
+Mon Oct 28 23:45:02 2024
